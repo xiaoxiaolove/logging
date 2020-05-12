@@ -45,3 +45,27 @@ func Error(v ...interface{}) {
 func Critical(v ...interface{}) {
 	_ = logger.Critical(v)
 }
+
+func Tracef(format string, params ...interface{}) {
+	logger.Tracef(format, params)
+}
+
+func Debugf(format string, params ...interface{}) {
+	logger.Debugf(format, params)
+}
+
+func Infof(format string, params ...interface{}) {
+	logger.Infof(format, params)
+}
+
+func Warnf(format string, params ...interface{}) {
+	_ = logger.Warnf(format, params)
+}
+
+func Errorf(format string, params ...interface{}) {
+	_ = logger.Errorf(format, params)
+}
+
+func Criticalf(format string, params ...interface{}) {
+	_ = logger.Criticalf(format, params)
+}
