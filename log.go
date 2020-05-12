@@ -23,49 +23,49 @@ func InitLogger(path string) {
 
 
 func Trace(v ...interface{}) {
-	logger.Trace(v)
+	logger.Trace(v...)
 }
 
 func Debug(v ...interface{}) {
-	logger.Debug(v)
+	logger.Debug(v...)
 }
 
 func Info(v ...interface{}) {
-	logger.Info(v)
+	logger.Info(v...)
 }
 
 func Warn(v ...interface{}) {
-	_ = logger.Warn(v)
+	_ = logger.Warn(v...)
 }
 
 func Error(v ...interface{}) {
-	_ = logger.Error(v)
+	_ = logger.Error(v...)
 }
 
 func Critical(v ...interface{}) {
-	_ = logger.Critical(v)
+	_ = logger.Critical(v...)
 }
 
 func Tracef(format string, params ...interface{}) {
-	logger.Tracef(format, params)
+	logger.Tracef(format, params...)
 }
 
 func Debugf(format string, params ...interface{}) {
-	logger.Debugf(format, params)
+	logger.Debugf(format, params...)
 }
 
 func Infof(format string, params ...interface{}) {
-	logger.Infof(format, params)
+	logger.Infof(format, params...)
 }
 
 func Warnf(format string, params ...interface{}) {
-	_ = logger.Warnf(format, params)
+	_ = logger.Warnf(format, params...)
 }
 
 func Errorf(format string, params ...interface{}) {
-	_ = logger.Errorf(format, params)
+	_ = logger.Errorf(format, params...)
 }
 
 func Criticalf(format string, params ...interface{}) {
-	_ = logger.Criticalf(format, params)
+	_ = logger.Criticalf(format, params...)
 }
